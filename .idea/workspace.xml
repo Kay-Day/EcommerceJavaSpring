@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dce5db4-4bda-45c8-81de-c6633049cc05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/images/logoso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/RoleRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/site/admin/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/site/admin/ShopmeBackEndApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/ShopmeBackEndApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +30,9 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +55,10 @@
     "Application.ShopmeFrontEndApplication.executor": "Run",
     "Application.com.shopme.site.admin.ShopmeBackEndApplication.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.RoleRepositoryTest.executor": "Run",
+    "JUnit.RoleRepositoryTest.testCreateFirstRole.executor": "Run",
+    "JUnit.RoleRepositoryTest.testCreateRestRole.executor": "Run",
+    "JUnit.UserRepositoryTest.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +74,7 @@
     "onboarding.tips.debug.path": "/Users/nguyenlenhunghia/Desktop/ShopSpringBoot/ShopmeProject/src/main/java/com/shopme/Main.java",
     "rearrange.code.on.save": "true",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,33 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.shopme.site.admin.ShopmeBackEndApplication">
-    <configuration name="ShopmeBackEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.ShopmeBackEndApplication" />
-      <module name="ShopmeBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopmeFrontEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shopme.site.ShopmeFrontEndApplication" />
-      <module name="ShopmeFrontEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.site.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserRepositoryTest">
     <configuration name="com.shopme.site.admin.ShopmeBackEndApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shopme.site.admin.ShopmeBackEndApplication" />
       <module name="ShopmeBackEnd" />
@@ -132,8 +111,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ShopSpringBoot/ShopmeBackEnd/templates/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="RoleRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.RoleRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleRepositoryTest.testCreateFirstRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.RoleRepositoryTest" />
+      <option name="METHOD_NAME" value="testCreateFirstRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleRepositoryTest.testCreateRestRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.RoleRepositoryTest" />
+      <option name="METHOD_NAME" value="testCreateRestRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ShopmeBackEndApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
@@ -145,6 +183,14 @@
     <configuration name="ShopmeBackEndApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.site.admin.ShopmeBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeBackEndApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ShopmeBackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.admin.user.ShopmeBackEndApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,10 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.RoleRepositoryTest.testCreateRestRole" />
+        <item itemvalue="JUnit.RoleRepositoryTest.testCreateFirstRole" />
+        <item itemvalue="JUnit.RoleRepositoryTest" />
         <item itemvalue="Application.com.shopme.site.admin.ShopmeBackEndApplication" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Application.ShopmeFrontEndApplication" />
-        <item itemvalue="Application.ShopmeBackEndApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +250,10 @@
       <option name="presentableId" value="Default" />
       <updated>1733763442082</updated>
       <workItem from="1733763443254" duration="7487000" />
-      <workItem from="1734090799633" duration="11964000" />
+      <workItem from="1734090799633" duration="12155000" />
+      <workItem from="1734158830289" duration="8765000" />
+      <workItem from="1734266407485" duration="4366000" />
+      <workItem from="1734704398504" duration="4019000" />
     </task>
     <servers />
   </component>
